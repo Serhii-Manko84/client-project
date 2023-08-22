@@ -10,7 +10,7 @@ function Form() {
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
     try {
       const response = await axios.post(
-        "http://localhost:5000/register",
+        "http://zohocrmserver.onrender.com/register",
 
         values,
         {
